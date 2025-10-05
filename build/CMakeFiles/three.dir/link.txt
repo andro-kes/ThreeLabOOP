@@ -1,0 +1,2 @@
+/usr/bin/ar qc libthree.a CMakeFiles/three.dir/src/Three.cpp.o
+/usr/bin/ranlib libthree.a

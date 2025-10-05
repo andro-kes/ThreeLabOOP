@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Xlinker --dependency-file=CMakeFiles/three_app.dir/link.d CMakeFiles/three_app.dir/src/main.cpp.o -o three_app  libthree.a

@@ -1,0 +1,273 @@
+Start testing: Oct 05 17:07 UTC
+----------------------------------------------------------
+1/10 Testing: Three_Constructors.DefaultIsZero
+1/10 Test: Three_Constructors.DefaultIsZero
+Command: "/workspace/build/three_tests" "--gtest_filter=Three_Constructors.DefaultIsZero" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Three_Constructors.DefaultIsZero" start time: Oct 05 17:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Three_Constructors.DefaultIsZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Three_Constructors
+[ RUN      ] Three_Constructors.DefaultIsZero
+[       OK ] Three_Constructors.DefaultIsZero (0 ms)
+[----------] 1 test from Three_Constructors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Three_Constructors.DefaultIsZero" end time: Oct 05 17:07 UTC
+"Three_Constructors.DefaultIsZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: Three_Constructors.FromSizeAndFill
+2/10 Test: Three_Constructors.FromSizeAndFill
+Command: "/workspace/build/three_tests" "--gtest_filter=Three_Constructors.FromSizeAndFill" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Three_Constructors.FromSizeAndFill" start time: Oct 05 17:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Three_Constructors.FromSizeAndFill
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Three_Constructors
+[ RUN      ] Three_Constructors.FromSizeAndFill
+[       OK ] Three_Constructors.FromSizeAndFill (0 ms)
+[----------] 1 test from Three_Constructors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Three_Constructors.FromSizeAndFill" end time: Oct 05 17:07 UTC
+"Three_Constructors.FromSizeAndFill" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: Three_Constructors.FromInitializerList
+3/10 Test: Three_Constructors.FromInitializerList
+Command: "/workspace/build/three_tests" "--gtest_filter=Three_Constructors.FromInitializerList" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Three_Constructors.FromInitializerList" start time: Oct 05 17:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Three_Constructors.FromInitializerList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Three_Constructors
+[ RUN      ] Three_Constructors.FromInitializerList
+[       OK ] Three_Constructors.FromInitializerList (0 ms)
+[----------] 1 test from Three_Constructors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Three_Constructors.FromInitializerList" end time: Oct 05 17:07 UTC
+"Three_Constructors.FromInitializerList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: Three_Constructors.FromString
+4/10 Test: Three_Constructors.FromString
+Command: "/workspace/build/three_tests" "--gtest_filter=Three_Constructors.FromString" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Three_Constructors.FromString" start time: Oct 05 17:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Three_Constructors.FromString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Three_Constructors
+[ RUN      ] Three_Constructors.FromString
+[       OK ] Three_Constructors.FromString (0 ms)
+[----------] 1 test from Three_Constructors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Three_Constructors.FromString" end time: Oct 05 17:07 UTC
+"Three_Constructors.FromString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: Three_Constructors.ThrowsOnInvalidDigit
+5/10 Test: Three_Constructors.ThrowsOnInvalidDigit
+Command: "/workspace/build/three_tests" "--gtest_filter=Three_Constructors.ThrowsOnInvalidDigit" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Three_Constructors.ThrowsOnInvalidDigit" start time: Oct 05 17:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Three_Constructors.ThrowsOnInvalidDigit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Three_Constructors
+[ RUN      ] Three_Constructors.ThrowsOnInvalidDigit
+[       OK ] Three_Constructors.ThrowsOnInvalidDigit (0 ms)
+[----------] 1 test from Three_Constructors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Three_Constructors.ThrowsOnInvalidDigit" end time: Oct 05 17:07 UTC
+"Three_Constructors.ThrowsOnInvalidDigit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: Three_Arithmetic.SumSimple
+6/10 Test: Three_Arithmetic.SumSimple
+Command: "/workspace/build/three_tests" "--gtest_filter=Three_Arithmetic.SumSimple" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Three_Arithmetic.SumSimple" start time: Oct 05 17:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Three_Arithmetic.SumSimple
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Three_Arithmetic
+[ RUN      ] Three_Arithmetic.SumSimple
+[       OK ] Three_Arithmetic.SumSimple (0 ms)
+[----------] 1 test from Three_Arithmetic (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Three_Arithmetic.SumSimple" end time: Oct 05 17:07 UTC
+"Three_Arithmetic.SumSimple" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: Three_Arithmetic.SumDifferentSizes
+7/10 Test: Three_Arithmetic.SumDifferentSizes
+Command: "/workspace/build/three_tests" "--gtest_filter=Three_Arithmetic.SumDifferentSizes" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Three_Arithmetic.SumDifferentSizes" start time: Oct 05 17:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Three_Arithmetic.SumDifferentSizes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Three_Arithmetic
+[ RUN      ] Three_Arithmetic.SumDifferentSizes
+[       OK ] Three_Arithmetic.SumDifferentSizes (0 ms)
+[----------] 1 test from Three_Arithmetic (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Three_Arithmetic.SumDifferentSizes" end time: Oct 05 17:07 UTC
+"Three_Arithmetic.SumDifferentSizes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: Three_Arithmetic.SubBorrowAndTrim
+8/10 Test: Three_Arithmetic.SubBorrowAndTrim
+Command: "/workspace/build/three_tests" "--gtest_filter=Three_Arithmetic.SubBorrowAndTrim" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Three_Arithmetic.SubBorrowAndTrim" start time: Oct 05 17:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Three_Arithmetic.SubBorrowAndTrim
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Three_Arithmetic
+[ RUN      ] Three_Arithmetic.SubBorrowAndTrim
+[       OK ] Three_Arithmetic.SubBorrowAndTrim (0 ms)
+[----------] 1 test from Three_Arithmetic (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Three_Arithmetic.SubBorrowAndTrim" end time: Oct 05 17:07 UTC
+"Three_Arithmetic.SubBorrowAndTrim" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: Three_Arithmetic.SubRejectsNegative
+9/10 Test: Three_Arithmetic.SubRejectsNegative
+Command: "/workspace/build/three_tests" "--gtest_filter=Three_Arithmetic.SubRejectsNegative" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Three_Arithmetic.SubRejectsNegative" start time: Oct 05 17:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Three_Arithmetic.SubRejectsNegative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Three_Arithmetic
+[ RUN      ] Three_Arithmetic.SubRejectsNegative
+[       OK ] Three_Arithmetic.SubRejectsNegative (0 ms)
+[----------] 1 test from Three_Arithmetic (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Three_Arithmetic.SubRejectsNegative" end time: Oct 05 17:07 UTC
+"Three_Arithmetic.SubRejectsNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: Three_Comparison.EqualLessMore
+10/10 Test: Three_Comparison.EqualLessMore
+Command: "/workspace/build/three_tests" "--gtest_filter=Three_Comparison.EqualLessMore" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build
+"Three_Comparison.EqualLessMore" start time: Oct 05 17:07 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Three_Comparison.EqualLessMore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Three_Comparison
+[ RUN      ] Three_Comparison.EqualLessMore
+[       OK ] Three_Comparison.EqualLessMore (0 ms)
+[----------] 1 test from Three_Comparison (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Three_Comparison.EqualLessMore" end time: Oct 05 17:07 UTC
+"Three_Comparison.EqualLessMore" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 05 17:07 UTC
