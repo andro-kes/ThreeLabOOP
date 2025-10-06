@@ -107,7 +107,7 @@ bool Three::isValidTernaryDigit(unsigned char c) {
 
 // obj + t
 Three Three::Sum(const Three &t) {
-    size_t maxSize = getMaxSize(this->size, t.size) + 1;  // Fixed: use different variable name
+    size_t maxSize = getMaxSize(this->size, t.size) + 1;
     unsigned char *result = new unsigned char[maxSize]{};
     unsigned char carry = 0;
     
@@ -128,9 +128,8 @@ Three Three::Sum(const Three &t) {
         resultSize = maxSize - 1;
     }
     
-    // Create result object properly
     Three resultObj;
-    delete[] resultObj.number;  // Delete the default allocated memory
+    delete[] resultObj.number; 
     resultObj.size = resultSize;
     resultObj.number = new unsigned char[resultSize];
     for (size_t i = 0; i < resultSize; i++) {
@@ -160,14 +159,14 @@ Three Three::Sub(const Three &t) {
         }
     }
     
-    // Remove leading zeros
+    // Remove zeros
     size_t resultSize = maxSize;
     while (resultSize > 1 && result[resultSize - 1] == '0') {
         resultSize--;
     }
     
     Three resultObj;
-    delete[] resultObj.number;  // Delete the default allocated memory
+    delete[] resultObj.number;
     resultObj.size = resultSize;
     resultObj.number = new unsigned char[resultSize];
     for (size_t i = 0; i < resultSize; i++) {
