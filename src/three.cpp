@@ -1,4 +1,5 @@
 #include "three.h"
+#include <stdexcept>
 
 Three::Three() {
     size = 1;
@@ -6,6 +7,9 @@ Three::Three() {
 }
 
 Three::Three(const size_t &n, unsigned char t) {
+    if (!isValidTernaryDigit(t)) {
+        throw std::invalid_argument("Число должно быть троичным");
+    }
     size = n;
     number = new unsigned char[n]{ t };
     Print();
@@ -16,6 +20,9 @@ Three::Three(const std::initializer_list<unsigned char> &t) {
     if (size > 0) {
         number = new unsigned char[size]{};
         for (size_t i = 0; i < size; i++) {
+            if (!isValidTernaryDigit(*(t.end() - 1 - i))) {
+                throw std::invalid_argument("Число должно быть троичным");
+            }
             number[i] = *(t.end() - 1 - i);
         }
     } else {
@@ -30,6 +37,9 @@ Three::Three(const std::string &t) {
     if (size > 0) {
         number = new unsigned char[size]{};
         for (size_t i = 0; i < size; i++) {
+            if (!isValidTernaryDigit(t[size - 1 - i]) ){
+                throw std::invalid_argument("Число должно быть троичным");
+            }
             number[i] = t[size - 1 - i];
         }
     } else {
@@ -48,7 +58,7 @@ Three::Three(const Three &t) {
     Print();
 }
 
-Three::Three(Three &&other) {
+Three::Three(Three &&other) noexcept {
     size = other.size;
     number = other.number;
     other.size = 0;

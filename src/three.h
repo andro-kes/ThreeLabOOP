@@ -11,7 +11,7 @@ public:
     Three(const std::initializer_list<unsigned char> &t);
     Three(const std::string &t);
     Three(const Three &t);
-    Three(Three &&other);
+    Three(Three &&other) noexcept;
     ~Three();
 
     void Print();
